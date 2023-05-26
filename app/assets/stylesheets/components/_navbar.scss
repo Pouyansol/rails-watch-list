@@ -10,3 +10,9 @@
 .navbar-lewagon .navbar-brand img {
   width: 40px;
 }
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 10;  // to ensure navbar is always on top of other elements
+}
