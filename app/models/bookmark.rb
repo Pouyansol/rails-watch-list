@@ -1,4 +1,5 @@
 class Bookmark < ApplicationRecord
+  has_one_attached :image
   belongs_to :movie
   belongs_to :list
 
